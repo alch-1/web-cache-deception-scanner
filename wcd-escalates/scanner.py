@@ -29,7 +29,7 @@ for url_ in lst:
   driver.get(url_)
 
   time.sleep(10)
-  
+
   driver2.get(url_)
 
 d1 = sorted([r for r in driver.requests if r in lst])
