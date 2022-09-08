@@ -21,7 +21,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_option
 driver2 = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
 lst = [
-  "https://www.google.com/"
+  "http://sgcarmart.com"
 ]
 
 ## Get stuff
@@ -30,40 +30,47 @@ for url_ in lst:
 
   time.sleep(10)
 
-  driver2.get(url_)
+  # driver2.get(url_)
 
-d1 = sorted([r for r in driver.requests if r in lst])
-d2 = sorted([r for r in driver.requests if r in lst])
+with open(LOGS, "a+") as f:
+  for request in driver.requests:
+    print((str(request)), len(str(request)))
+    # if str(request.url).strip() in lst:
+    # if True:
+    f.write("=========================================")
+    f.write(str(request.url)) # <--------------- Request url
+    f.write(str(request.headers)) # <----------- Request headers
+    
+    f.write("Body:")
+    body = decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
+    f.write(str(body))
+
+    f.write(str(request.response.headers)) # <-- Response headers
+    f.write("=========================================")
+    # print("Pass!")
+    pass
+
+  # driver2.get(url_)
+
+# d1 = sorted([r for r in driver.requests if r in lst])
+# d2 = sorted([r for r in driver.requests if r in lst])
 
 ##  Print request headers
-for i in range(len(d1)):
-  request = d1[i]
-  request2 = d2[i]
+# for i in range(len(d1)):
+#   request = d1[i]
+#   request2 = d2[i]
 
-  body = decode_req(request)
-  body2 = decode_req(request)
+#   body = decode_req(request)
+#   body2 = decode_req(request)
 
-  ## step 1
-  if body == body2:
-    print("[!] static page detected, abort test!")
-  else:
-    ## step 2
-    ## add attack url
-    print("[!] step 1 passed, moving on to step 2...")
+#   ## step 1
+#   if body == body2:
+#     print("[!] static page detected, abort test!")
+#   else:
+#     ## step 2
+#     ## add attack url
+#     print("[!] step 1 passed, moving on to step 2...")
 
 
-  # print(type(str(request)), len(str(request)))
-  # if str(request.url).strip() == "https://www.google.com/":
-    # print("=========================================")
-    # print(request.url) # <--------------- Request url
-    # print(request.headers) # <----------- Request headers
-    
-    # print("Body:")
-    # body = decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
-    # print(body)
-
-    # print(request.response.headers) # <-- Response headers
-    # print("=========================================")
-    # # print("Pass!")
-    # pass
+  
 

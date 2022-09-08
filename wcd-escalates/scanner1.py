@@ -1,8 +1,11 @@
 import requests 
+from urllib.request import urlopen
+from pprint import pprint
+
 LOGS = "logs.txt"
 
 lst = [
-  "google.com"
+  "sgcarmart.com"
 ]
 
 attack_lst = [
@@ -30,6 +33,7 @@ attack_string = "teamchae.css"
 
 ## Get stuff
 for url_ in lst:
+  ## Add http://, may not be necessary.
   url_ = "http://" + url_
   print("[i] testing for", url_)
   r1 = requests.get(url_)
@@ -42,15 +46,39 @@ for url_ in lst:
     ## add attack url
     print("[!] step 1 passed (dynamic page), moving on to step 2...")
     for suffix in attack_lst:
-      # remove last "/"
+      # make attack url
       attack_url = url_ + suffix + attack_string
       
-      a1 = requests.get(attack_url)
-      a2 = requests.get(attack_url)
+      failed = False
 
-      h1 = a1.headers
-      h2 = a2.headers
+      ## Use requests
+      try:
+        print("[i] trying", attack_url)
+        ar1 = requests.get(attack_url)
+        ar2 = requests.get(attack_url)
 
-      print(h1)
+        h1 = ar1.headers.items()
+        h2 = ar2.headers.items()
+      except Exception as e:
+        print("[!] error:", e)
 
-      exit()
+      pprint(h1)
+
+      ## Use urlopen
+      # try:
+      #   with urlopen(attack_url) as resp1:
+      #     print("[1] attack url passed:", attack_url)
+      #     pass
+      #   with urlopen(attack_url) as resp2:
+      #     print("[2] attack url passed:", attack_url)
+      #     pass
+      # except Exception as e:
+      #   print("[!] error: 404!")
+      #   failed = True
+
+      # if failed == False:
+      #   h1 = resp1.headers.items()
+      #   h2 = resp2.headers.items()
+
+      #   print(h1)
+
