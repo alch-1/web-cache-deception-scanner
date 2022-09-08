@@ -1,3 +1,5 @@
+taobao.com
+tiktok.com
 google.com
 youtube.com
 baidu.com
@@ -18,10 +20,8 @@ microsoft.com
 reddit.com
 yandex.ru
 office.com
-taobao.com
 vk.com
 github.com
-tiktok.com
 zoom.us
 csdn.net
 canva.com
