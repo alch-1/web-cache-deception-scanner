@@ -1,13 +1,20 @@
 import requests 
 from urllib.request import urlopen
 from pprint import pprint
+from time import sleep
 
 LOGS = "logs.txt"
+URLS = "urls.txt"
 
-lst = [
-  "sgcarmart.com"
-]
+lst = []
 
+with open (URLS, "r+") as f:
+  lst = f.readlines()
+
+lst = [l.strip() for l in lst]
+
+# shit.com/shit.css # access 1x --> cache hit # access 2x --> cache miss --> vuln
+# shit.com%0Ashit.css
 attack_lst = [
   r"/",
   r"%0A",
@@ -26,7 +33,18 @@ attack_lst = [
   r"%5C",
   r"%25%35%43",
   r"%3A",
-  r"%25%33%41"
+  r"%25%33%41",
+  r"@"
+]
+
+cache_status = [
+  "server-timing", "X-Cache", "X-Cache-Remote",
+  "cf-cache-status",
+  "cdn_cache_status",
+  "x-cache",
+  "X-Proxy-Cache",
+  "X-Rack-Cache",
+  "x-cache-info"
 ]
 
 attack_string = "teamchae.css"
@@ -35,7 +53,7 @@ attack_string = "teamchae.css"
 for url_ in lst:
   ## Add http://, may not be necessary.
   url_ = "http://" + url_
-  print("[i] testing for", url_)
+  print(" ====== [i] testing for", url_, "======")
   r1 = requests.get(url_)
   r2 = requests.get(url_)
 
@@ -46,6 +64,8 @@ for url_ in lst:
     ## add attack url
     print("[!] step 1 passed (dynamic page), moving on to step 2...")
     for suffix in attack_lst:
+      print("---------------------------------")
+      sleep(0.3)
       # make attack url
       attack_url = url_ + suffix + attack_string
       
@@ -57,13 +77,18 @@ for url_ in lst:
         ar1 = requests.get(attack_url)
         ar2 = requests.get(attack_url)
 
-        h1 = ar1.headers.items()
-        h2 = ar2.headers.items()
+        h1 = ar1.headers
+        # print(type(h1))
+        h2 = ar2.headers
       except Exception as e:
         print("[!] error:", e)
+        failed = True
 
-      pprint(h1)
-
+      if failed == False:
+        ## get cache status
+        for status in cache_status:
+          print("[i] trying " + status)
+          print(h1.get(status))
       ## Use urlopen
       # try:
       #   with urlopen(attack_url) as resp1:
