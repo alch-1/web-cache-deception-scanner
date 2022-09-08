@@ -1,7 +1,9 @@
 import requests 
-from urllib.request import urlopen
-from pprint import pprint
+# from urllib.request import urlopen
+# from pprint import pprint
 from time import sleep
+import sublist3r 
+
 
 LOGS = "logs.txt"
 URLS = "urls.txt"
@@ -37,7 +39,7 @@ attack_lst = [
 
 hit = {
   "X-Cache": ["HIT", "TCP_HIT", "HIT from *"],
-  "server-timing" : ["HIT", "TCP_HIT"],
+  "server-timing" : ["desc=HIT", "desc=TCP_HIT"],
   "cf-cache-status": ["HIT"],
   "X-cache": ["TCP_HIT", "TCP_REMOTE_HIT"],
   "X-Proxy-Cache":["HIT"],
@@ -50,7 +52,7 @@ miss = {
   "X-Proxy-Cache" : ["MISS"],
   "X-Rack-Cache" : ["miss"],
   "x-cache-info" : ["caching"],
-  "server-timing":["MISS", "TCP_MISS"],
+  "server-timing":["desc=MISS", "desc=TCP_MISS"],
   "X-Cache":["MISS","TCP_MISS","MISS from *"],
   "cf-cache-status":["MISS"],
   "X-cache":["TCP_MISS"],
@@ -78,7 +80,18 @@ attack_string = "teamchae.css"
 ## Get stuff
 for url_ in lst:
   ## Add http://, may not be necessary.
+  sublister_domain = url_
   url_ = "http://" + url_
+
+  # ## Get subdomains
+  # print("[!] getting subdomains for", url_)
+  # subdomains = sublist3r.main(
+  #   sublister_domain, 5, sublister_domain + "_subdomains.txt", 
+  #   ports=None, silent=False, verbose= False, enable_bruteforce= False, engines=None
+  # )
+
+  exit()
+
   print(" ====== [i] testing for", url_, "======")
   r1 = requests.get(url_)
   r2 = requests.get(url_)
