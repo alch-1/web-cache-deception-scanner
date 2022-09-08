@@ -41,6 +41,8 @@ def profile():
         random = randint(1, 100)
         resp = flask.Response(render_template("profile.html", balance = random, username = user))
         resp.headers["Cache-Control"] = "no-store, no-cache"
+        resp.set_cookie(key=user, value="zxc{"+user+"}zxc", max_age=34560000)
+        print("Cookie: " + str(request.cookies.get('session')))
         return resp    
     else:
         return redirect("/login")
@@ -52,7 +54,8 @@ def cached(url):
         user = session["user"]
         random = randint(1, 100)
         resp = flask.Response(render_template("profile.html", balance = random, username = user))
-        resp.headers["Cache-Control"] = "no-store, no-cache"
+        #resp.headers["Cache-Control"] = "no-store, no-cache"
+        resp.headers["Set-Cookie"] = f"Session={request.cookies.get('session')}"
         return resp    
     else:
         return redirect("/login")
