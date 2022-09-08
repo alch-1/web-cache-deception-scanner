@@ -1,2 +1,5 @@
 # web-cache-deception-scanner
-Modification of https://github.com/smlijun/Web-Cache-Deception-Helper. Many thanks to the original code owner.
+
+Implementation of _Web Cache Deception Escalates!_ by Seyed Ali Mirheidari. (https://www.usenix.org/conference/usenixsecurity22/presentation/mirheidari)
+
+Includes a modification of https://github.com/smlijun/Web-Cache-Deception-Helper. Many thanks to the original code owner.
