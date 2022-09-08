@@ -80,7 +80,7 @@ attack_string = "teamchae.css"
 ## Get stuff
 for url_ in lst:
   ## Add http://, may not be necessary.
-  sublister_domain = url_
+  # sublister_domain = url_
   url_ = "http://" + url_
 
   # ## Get subdomains
@@ -90,7 +90,7 @@ for url_ in lst:
   #   ports=None, silent=False, verbose= False, enable_bruteforce= False, engines=None
   # )
 
-  exit()
+  # exit()
 
   print(" ====== [i] testing for", url_, "======")
   r1 = requests.get(url_)
