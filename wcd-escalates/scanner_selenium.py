@@ -225,6 +225,7 @@ for url_ in lst:
                       # print("Compare:", parsed_compare2)
 
                       if parsed_url2 == parsed_compare2:
+                        write_("--- checking for MISS for " + str(url2) + " ---")
                         for status2 in cache_status:
                           try:
                             cache_response2 = request2.response.headers[status2]

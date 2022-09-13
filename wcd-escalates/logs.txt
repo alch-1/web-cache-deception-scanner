@@ -310,3 +310,551 @@
 [!] hit or miss status not present for X-Cache-Remote
 [i] cf-cache-status: HIT
 [i] first request for https://www.sgcarmart.com/css/global.css is a HIT, now checking for MISS...
+********** Run on: 2022-09-13 14:40:54 **********
+ ====== [i] testing for http://sgcarmart.com ======
+[!] step 1 passed (dynamic page), moving on to step 2...
+---------------------------------
+------ http://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: EXPIRED
+[!] first request is not a hit
+------ https://www.sgcarmart.com/css/topmenuheader.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: EXPIRED
+[!] first request is not a hit
+------ https://www.sgcarmart.com/css/global.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/css/global.css is a HIT, now checking for MISS...
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] no miss found, website is not vulnerable. 
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css is a HIT, now checking for MISS...
+********** Run on: 2022-09-13 14:42:23 **********
+ ====== [i] testing for http://sgcarmart.com ======
+[!] step 1 passed (dynamic page), moving on to step 2...
+---------------------------------
+------ http://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/teamchae.css is a HIT, now checking for MISS...
+[i] checking for MISS for http://sgcarmart.com/teamchae.css
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://sgcarmart.com/teamchae.css
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://www.sgcarmart.com/teamchae.css
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://www.sgcarmart.com/css/global.css
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://www.sgcarmart.com/css/topmenuheader.css
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] checking for MISS for https://www.sgcarmart.com/js/jquery-1.4.2.min.js
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] no miss found, website is not vulnerable. 
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/css/global.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/css/global.css is a HIT, now checking for MISS...
+********** Run on: 2022-09-13 14:42:56 **********
+ ====== [i] testing for http://sgcarmart.com ======
+[!] step 1 passed (dynamic page), moving on to step 2...
+---------------------------------
+------ http://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/teamchae.css is a HIT, now checking for MISS...
+--- checking for MISS for http://sgcarmart.com/teamchae.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://sgcarmart.com/teamchae.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/teamchae.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/css/global.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/css/topmenuheader.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/js/jquery-1.4.2.min.js ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] no miss found, website is not vulnerable. 
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/css/global.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: EXPIRED
+[!] first request is not a hit
+------ https://www.sgcarmart.com/css/topmenuheader.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/css/topmenuheader.css is a HIT, now checking for MISS...
+--- checking for MISS for http://sgcarmart.com/teamchae.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://sgcarmart.com/teamchae.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cf-cache-status
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/teamchae.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/css/global.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/css/topmenuheader.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/js/jquery-1.4.2.min.js ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+--- checking for MISS for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css ---
+[!] hit or miss status not present for server-timing
+[!] hit or miss status not present for X-Cache
+[!] hit or miss status not present for X-Cache-Remote
+[!] hit or miss status not present for cdn_cache_status
+[!] hit or miss status not present for x-cache
+[!] hit or miss status not present for X-Proxy-Cache
+[!] hit or miss status not present for X-Rack-Cache
+[!] hit or miss status not present for x-cache-info
+[i] no miss found, website is not vulnerable. 
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js is a HIT, now checking for MISS...
