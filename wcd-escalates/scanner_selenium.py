@@ -196,11 +196,11 @@ for url_ in lst:
                   write_("[!] hit or miss status not present for " + str(status))
                 else:
                   selenium_url = request.url
-                  hit_list = hit.get(status) # get list of codes that match hit
-                  if cache_response in hit_list: # first req is a hit, move to stage 2
-                    write_("[i] first request for " + str(selenium_url) + " is a HIT, now checking for MISS...")
+                  miss_list = miss.get(status) # get list of codes that match miss
+                  if cache_response in miss_list: # first req is a miss, move to stage 2
+                    write_("[i] first request for " + str(selenium_url) + " is a MISS, now checking for HIT...")
 
-                    # check for second cache miss
+                    # check for second cache HIT
                     # make second driver
                     driver2 = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
@@ -225,27 +225,27 @@ for url_ in lst:
                       # print("Compare:", parsed_compare2)
 
                       if parsed_url2 == parsed_compare2:
-                        write_("--- checking for MISS for " + str(url2) + " ---")
+                        write_("--- checking for HIT for " + str(url2) + " ---")
                         for status2 in cache_status:
                           try:
                             cache_response2 = request2.response.headers[status2]
                             # write_("line 224 [i] " + str(status2) + ": " + str(cache_response2))
 
                             if cache_response2 == None:
-                              write_("[!] hit or miss status not present for " + str(status2))
+                              write_("[!] HIT or MISS status not present for " + str(status2))
                             else:
                               selenium_url = request.url
-                              miss_list = miss.get(status2) # get list of codes that match hit
-                              if cache_response2 in miss_list: # req is a miss, website is vulnerable 
-                                writefound("[i] second request is a MISS, " + str(url2) + " is vulnerable to WCD!")
+                              hit_list = hit.get(status2) # get list of codes that match hit
+                              if cache_response2 in hit_list: # req is a miss, website is vulnerable 
+                                writefound("[i] second request is a HIT, " + str(url2) + " is vulnerable to WCD!")
                                 break
                           except Exception as e:
                             write_("[!] Error: " + str(e))
                       else:
-                        write_("[i] no miss found, website is not vulnerable. ")
+                        write_("[i] no HIT found, website is not vulnerable. ")
                         break
                   else:
-                    write_("[!] first request is not a hit")
+                    write_("[!] first request is not a MISS")
                     break
               except Exception as e:
                 write_("[!] error " + str(e))
