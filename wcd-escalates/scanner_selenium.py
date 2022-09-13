@@ -7,12 +7,14 @@ from seleniumwire import webdriver
 from seleniumwire.utils import decode
 from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import urlparse
+from datetime import datetime
 
 
 ### DEFINITIONS ###
 
 LOGS = "logs.txt"
 URLS = "urls.txt"
+TODAY = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
 def decode_req(request):
   body = decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
@@ -22,8 +24,10 @@ def https_getter(url):
   return url.replace("http", "https")
 
 def write_(s):
+  f = open(LOGS, "a+")
   print(s)
-  f.write(s)
+  f.write(s + "\n")
+  f.close()
 
 ### CODE START ###
 
@@ -97,8 +101,9 @@ cache_status = [
 ## we use a unique name so that it is a unique file
 attack_string = "teamchae.css"
 
-## open log file for writing
-f = open(LOGS, "a+")
+## start header
+
+write_("********** Run on: " + str(TODAY) +" **********")
 
 ## Get stuff
 for url_ in lst:
@@ -115,7 +120,7 @@ for url_ in lst:
 
   # exit()
 
-  write_(" ====== [i] testing for", url_, "======")
+  write_(" ====== [i] testing for " +  str(url_) + " ======")
   r1 = requests.get(url_)
   r2 = requests.get(url_)
 
@@ -172,21 +177,21 @@ for url_ in lst:
           if parsed_url == parsed_compare:
             ## NOTE main
             # write_ url
-            write_("------" + url + "------")
+            write_("------ " + url + " ------")
             for status in cache_status:
               try:
                 cache_response = request.response.headers[status]
                 # None, HIT, MISS, etc.
-                write_("[i]", status, ":", cache_response)
+                write_("[i] " + str(status) + ": " + str(cache_response))
 
                 ## check for cache response
                 if cache_response == None:
-                  write_("[!] hit or miss status not present for", status)
+                  write_("[!] hit or miss status not present for " + str(status))
                 else:
                   selenium_url = request.url
                   hit_list = hit.get(status) # get list of codes that match hit
                   if cache_response in hit_list: # first req is a hit, move to stage 2
-                    write_("[i] first request for", selenium_url ,"is a HIT, now checking for MISS...")
+                    write_("[i] first request for " + str(selenium_url) + " is a HIT, now checking for MISS...")
 
                     # check for second cache miss
                     # make second driver
@@ -196,7 +201,7 @@ for url_ in lst:
                     try:
                       driver2.get(attack_url)
                     except Exception as e:
-                      write_("[!] error:", e)
+                      write_("[!] error: " + str(e))
                       break
 
                     for request2 in driver2.requests:
@@ -206,16 +211,17 @@ for url_ in lst:
                       if url2 == selenium_url:
                         try:
                           cache_response2 = request2.response.headers[status]
+                          write_("[i] " + str(status) + ": " + str(cache_response2))
 
                           if cache_response2 == None:
-                            write_("[!] hit or miss status not present for", status)
+                            write_("[!] hit or miss status not present for " + str(status))
                           else:
                             selenium_url = request.url
                             miss_list = miss.get(status) # get list of codes that match hit
                             if cache_response2 in miss_list: # first req is a hit, move to stage 2
-                              write_("[i] second request is a MISS,", selenium_url, "is vulnerable to WCD!")
+                              write_("[i] second request is a MISS, " + str(selenium_url) + " is vulnerable to WCD!")
                         except Exception as e:
-                          write_("[!] Error:", e)
+                          write_("[!] Error: " + str(e))
                       else:
                         write_("[i] no miss found, website is not vulnerable. ")
                         break
@@ -223,5 +229,5 @@ for url_ in lst:
                     write_("[!] first request is not a hit")
                     break
               except Exception as e:
-                write_("[!] error", e)
+                write_("[!] error " + str(e))
                 pass
