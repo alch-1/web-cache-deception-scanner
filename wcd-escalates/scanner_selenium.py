@@ -85,7 +85,7 @@ miss = {
   "x-cache-info" : ["caching"],
   "server-timing":["desc=MISS", "desc=TCP_MISS"],
   "X-Cache":["MISS","TCP_MISS","MISS from *"],
-  "cf-cache-status":["MISS"],
+  "cf-cache-status":["MISS", "EXPIRED"],
   "X-cache":["TCP_MISS"],
   "cdn_cache_status":["miss"],
   "x-cache": ["Miss from cloudfront"]
