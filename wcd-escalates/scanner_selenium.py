@@ -15,6 +15,7 @@ from datetime import datetime
 LOGS = "logs.txt"
 URLS = "urls.txt"
 TODAY = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+FOUND = "vulnerable.txt"
 
 def decode_req(request):
   body = decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
@@ -25,6 +26,12 @@ def https_getter(url):
 
 def write_(s):
   f = open(LOGS, "a+")
+  print(s)
+  f.write(s + "\n")
+  f.close()
+
+def writefound(s):
+  f = open(FOUND, "a+")
   print(s)
   f.write(s + "\n")
   f.close()
@@ -218,19 +225,21 @@ for url_ in lst:
                       # print("Compare:", parsed_compare2)
 
                       if parsed_url2 == parsed_compare2:
-                        try:
-                          cache_response2 = request2.response.headers[status]
-                          write_("[i] " + str(status) + ": " + str(cache_response2))
+                        for status2 in cache_status:
+                          try:
+                            cache_response2 = request2.response.headers[status2]
+                            # write_("line 224 [i] " + str(status2) + ": " + str(cache_response2))
 
-                          if cache_response2 == None:
-                            write_("[!] hit or miss status not present for " + str(status))
-                          else:
-                            selenium_url = request.url
-                            miss_list = miss.get(status) # get list of codes that match hit
-                            if cache_response2 in miss_list: # first req is a hit, move to stage 2
-                              write_("[i] second request is a MISS, " + str(selenium_url) + " is vulnerable to WCD!")
-                        except Exception as e:
-                          write_("[!] Error: " + str(e))
+                            if cache_response2 == None:
+                              write_("[!] hit or miss status not present for " + str(status2))
+                            else:
+                              selenium_url = request.url
+                              miss_list = miss.get(status2) # get list of codes that match hit
+                              if cache_response2 in miss_list: # first req is a hit, move to stage 2
+                                writefound("[i] second request is a MISS, " + str(url2) + " is vulnerable to WCD!")
+                                break
+                          except Exception as e:
+                            write_("[!] Error: " + str(e))
                       else:
                         write_("[i] no miss found, website is not vulnerable. ")
                         break
