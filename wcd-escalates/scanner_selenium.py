@@ -159,7 +159,7 @@ for url_ in lst:
       try:
         driver.get(attack_url)
       except Exception as e:
-        write_("[!] error:", e)
+        write_("[!] error:" + str(e))
         break
 
       # time.sleep(10)
