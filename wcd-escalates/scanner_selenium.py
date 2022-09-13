@@ -236,7 +236,7 @@ for url_ in lst:
                             else:
                               selenium_url = request.url
                               miss_list = miss.get(status2) # get list of codes that match hit
-                              if cache_response2 in miss_list: # first req is a hit, move to stage 2
+                              if cache_response2 in miss_list: # req is a miss, website is vulnerable 
                                 writefound("[i] second request is a MISS, " + str(url2) + " is vulnerable to WCD!")
                                 break
                           except Exception as e:
