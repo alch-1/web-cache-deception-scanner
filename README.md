@@ -4,4 +4,4 @@ Implementation of _Web Cache Deception Escalates!_ by Seyed Ali Mirheidari. (htt
 
 Includes a modification of https://github.com/smlijun/Web-Cache-Deception-Helper. Many thanks to the original code owner.
 
-Main project file is `wcd-escalates/scanner_selenium.py` folder
+Main project file is `wcd-escalates/scanner_selenium.py`.
