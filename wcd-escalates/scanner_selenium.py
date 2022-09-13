@@ -208,7 +208,16 @@ for url_ in lst:
                       # write_((str(request)), len(str(request)))
                       url2 = str(request2.url).strip()
 
-                      if url2 == selenium_url:
+                      ## find domain
+                      # remove www
+                      parsed_url2 = urlparse(url2).netloc.replace("www.", "")
+                      # print("Domain:", parsed_url2)
+
+                      ## domain to compare with
+                      parsed_compare2 = urlparse(url_).netloc.replace("www.", "")
+                      # print("Compare:", parsed_compare2)
+
+                      if parsed_url2 == parsed_compare2:
                         try:
                           cache_response2 = request2.response.headers[status]
                           write_("[i] " + str(status) + ": " + str(cache_response2))

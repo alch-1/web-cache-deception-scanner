@@ -26,7 +26,6 @@ github.com
 zoom.us
 csdn.net
 canva.com
-microsoftonline.com
 fandom.com
 stackoverflow.com
 yahoo.co.jp
@@ -45,3 +44,7 @@ ebay.com
 pinterest.com
 google.com.hk
 sohu.com
+quora.com
+iqiyi.com
+tmall.com
+flipkart.com

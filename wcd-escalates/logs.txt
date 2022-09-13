@@ -1,4 +1,64 @@
-********** Run on: 2022-09-13 10:08:52 **********
+********** Run on: 2022-09-13 14:18:29 **********
+ ====== [i] testing for http://sgcarmart.com ======
+[!] step 1 passed (dynamic page), moving on to step 2...
+---------------------------------
+------ http://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: EXPIRED
+[!] first request is not a hit
+------ https://www.sgcarmart.com/css/global.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: HIT
+[i] first request for https://www.sgcarmart.com/css/global.css is a HIT, now checking for MISS...
+********** Run on: 2022-09-13 14:18:52 **********
  ====== [i] testing for http://sgcarmart.com ======
 [!] step 1 passed (dynamic page), moving on to step 2...
 ---------------------------------
@@ -80,7 +140,7 @@
 [!] hit or miss status not present for X-Rack-Cache
 [i] x-cache-info: None
 [!] hit or miss status not present for x-cache-info
------- https://www.sgcarmart.com/js/jquery-1.4.2.min.js ------
+------ https://www.sgcarmart.com/css/topmenuheader.css ------
 [i] server-timing: None
 [!] hit or miss status not present for server-timing
 [i] X-Cache: None
@@ -88,8 +148,20 @@
 [i] X-Cache-Remote: None
 [!] hit or miss status not present for X-Cache-Remote
 [i] cf-cache-status: HIT
-[i] first request for https://www.sgcarmart.com/js/jquery-1.4.2.min.js is a HIT, now checking for MISS...
-[i] no miss found, website is not vulnerable. 
+[i] first request for https://www.sgcarmart.com/css/topmenuheader.css is a HIT, now checking for MISS...
+********** Run on: 2022-09-13 14:22:06 **********
+ ====== [i] testing for http://sgcarmart.com ======
+[!] step 1 passed (dynamic page), moving on to step 2...
+---------------------------------
+------ http://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
 [i] cdn_cache_status: None
 [!] hit or miss status not present for cdn_cache_status
 [i] x-cache: None
@@ -100,7 +172,35 @@
 [!] hit or miss status not present for X-Rack-Cache
 [i] x-cache-info: None
 [!] hit or miss status not present for x-cache-info
------- https://www.sgcarmart.com/css/topmenuheader.css ------
+------ https://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: EXPIRED
+[!] first request is not a hit
+------ https://www.sgcarmart.com/css/global.css ------
 [i] server-timing: None
 [!] hit or miss status not present for server-timing
 [i] X-Cache: None
@@ -108,8 +208,8 @@
 [i] X-Cache-Remote: None
 [!] hit or miss status not present for X-Cache-Remote
 [i] cf-cache-status: HIT
-[i] first request for https://www.sgcarmart.com/css/topmenuheader.css is a HIT, now checking for MISS...
-[i] no miss found, website is not vulnerable. 
+[i] first request for https://www.sgcarmart.com/css/global.css is a HIT, now checking for MISS...
+[!] error write_() takes 1 positional argument but 2 were given
 [i] cdn_cache_status: None
 [!] hit or miss status not present for cdn_cache_status
 [i] x-cache: None
@@ -129,7 +229,19 @@
 [!] hit or miss status not present for X-Cache-Remote
 [i] cf-cache-status: HIT
 [i] first request for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css is a HIT, now checking for MISS...
-[i] no miss found, website is not vulnerable. 
+********** Run on: 2022-09-13 14:22:57 **********
+ ====== [i] testing for http://sgcarmart.com ======
+[!] step 1 passed (dynamic page), moving on to step 2...
+---------------------------------
+------ http://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
 [i] cdn_cache_status: None
 [!] hit or miss status not present for cdn_cache_status
 [i] x-cache: None
@@ -140,7 +252,26 @@
 [!] hit or miss status not present for X-Rack-Cache
 [i] x-cache-info: None
 [!] hit or miss status not present for x-cache-info
------- https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js ------
+------ https://sgcarmart.com/teamchae.css ------
+[i] server-timing: None
+[!] hit or miss status not present for server-timing
+[i] X-Cache: None
+[!] hit or miss status not present for X-Cache
+[i] X-Cache-Remote: None
+[!] hit or miss status not present for X-Cache-Remote
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cdn_cache_status: None
+[!] hit or miss status not present for cdn_cache_status
+[i] x-cache: None
+[!] hit or miss status not present for x-cache
+[i] X-Proxy-Cache: None
+[!] hit or miss status not present for X-Proxy-Cache
+[i] X-Rack-Cache: None
+[!] hit or miss status not present for X-Rack-Cache
+[i] x-cache-info: None
+[!] hit or miss status not present for x-cache-info
+------ https://www.sgcarmart.com/teamchae.css ------
 [i] server-timing: None
 [!] hit or miss status not present for server-timing
 [i] X-Cache: None
@@ -148,7 +279,17 @@
 [i] X-Cache-Remote: None
 [!] hit or miss status not present for X-Cache-Remote
 [i] cf-cache-status: HIT
-[i] first request for https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js is a HIT, now checking for MISS...
+[i] first request for https://www.sgcarmart.com/teamchae.css is a HIT, now checking for MISS...
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cf-cache-status: None
+[!] hit or miss status not present for cf-cache-status
+[i] cf-cache-status: HIT
+[i] cf-cache-status: HIT
+[i] cf-cache-status: HIT
+[i] cf-cache-status: HIT
+[i] cf-cache-status: HIT
+[i] cf-cache-status: HIT
 [i] no miss found, website is not vulnerable. 
 [i] cdn_cache_status: None
 [!] hit or miss status not present for cdn_cache_status
@@ -160,1473 +301,7 @@
 [!] hit or miss status not present for X-Rack-Cache
 [i] x-cache-info: None
 [!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://taobao.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://taobao.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- http://www.taobao.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.taobao.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://tiktok.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://tiktok.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: FunctionGeneratedResponse from cloudfront
-[!] first request is not a hit
------- https://www.tiktok.com/teamchae.css ------
-[i] server-timing: cdn-cache; desc=MISS, edge; dur=35, origin; dur=42
-[!] first request is not a hit
------- https://www.tiktok.com/404?fromUrl=/teamchae.css ------
-[i] server-timing: cdn-cache; desc=MISS, edge; dur=36, origin; dur=226
-[!] first request is not a hit
------- https://www.tiktok.com/node/common/web-privacy-config?lang=en ------
-[i] server-timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=64
-[!] first request is not a hit
------- https://www.tiktok.com/passport/web/account/info/?aid=1459&app_name=tiktok_web&device_platform=web_pc&device_id=7142680920176297473&region=SG&priority_region=&os=windows&referer=&cookie_enabled=true&screen_width=800&screen_height=600&browser_language=en-GB&browser_platform=Win32&browser_name=Mozilla&browser_version=5.0+(Windows+NT+10.0%3B+Win64%3B+x64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+HeadlessChrome%2F105.0.5195.102+Safari%2F537.36&browser_online=true&app_language=en&timezone_name=Asia%2FSingapore&is_page_visible=true&focus_state=true&is_fullscreen=false&history_len=2&battery_info=%7B%7D ------
-[i] server-timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=43
-[!] first request is not a hit
------- https://www.tiktok.com/api/policy/notice/?aid=1988&app_name=tiktok_web&device_platform=web_pc&device_id=7142680920176297473&region=SG&priority_region=&os=windows&referer=&cookie_enabled=true&screen_width=800&screen_height=600&browser_language=en-GB&browser_platform=Win32&browser_name=Mozilla&browser_version=5.0+(Windows+NT+10.0%3B+Win64%3B+x64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+HeadlessChrome%2F105.0.5195.102+Safari%2F537.36&browser_online=true&app_language=en&timezone_name=Asia%2FSingapore&is_page_visible=true&focus_state=true&is_fullscreen=false&history_len=2&battery_info=%7B%7D&locale=en ------
-[i] server-timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=68
-[!] first request is not a hit
- ====== [i] testing for http://google.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://google.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- http://www.google.com/images/errors/robot.png ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- http://www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://youtube.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://youtube.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.youtube.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.youtube.com/error?src=404&ifr=1&error= ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://baidu.com ======
-[!] static page detected, abort test!
- ====== [i] testing for http://facebook.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://facebook.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.facebook.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://bilibili.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://bilibili.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.bilibili.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://yahoo.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://yahoo.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://yahoo.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/?err=404&err_url=https%3a%2f%2fwww.yahoo.com%2fteamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/info/p.gif?apptype=default&beaconType=pageRenderStart&code=pageRender&bucket=405&device=desktop&intl=us&rid=6jhpm69hhvplk&site=fp&t=1663035060817 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/info/p.gif?apptype=default&beaconType=pageRenderEnd&code=pageRender&bucket=405&device=desktop&intl=us&rid=6jhpm69hhvplk&site=fp&t=1663035060819 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/__rapid-worker-1.2.js ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/fp_mtls_ms/_rcv/remote?m_id=react-wafer-horoscope&ctrl=HoroscopeGrid&instance_id=horoscope&site=fp&rid=6jhpm69hhvplk&apptype=default&m_mode=json&_evtSrc=deferLoad ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/tdv2_fp/api/resource/WeatherLocationService.favoriteLocation?lang=en-US&region=US&site=fp&ssl=1&crumb=hDpU/X3N1E8&returnMeta=true ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/tdv2_fp/api/resource/NotificationHistory.getHistory;count=5;imageTag=img%3A40x40%7C2%7C80;theme=default;notificationTypes=breakingNews;lastUpdate=1663035063;loadInHpViewer=true;includePersonalized=;lang=en-US;region=US;partner=yahoo ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/__rapid-worker-1.2.js ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/caas/content/article/?uuid=eb833337-5ef7-303c-a894-1a62dbb5e0ea,b45c747d-85fa-3dcf-b86d-a7a8ce799d6f,2acb980e-cc8f-38e8-8e9a-85eb7e947da6,fbc6ce64-5b08-3e2a-8395-c09659052515,13c826a4-a1d1-31a3-b419-92d554ea7eed,9c8fbcd8-b69a-393e-90c7-150b5f4a83a0,897e1af6-bb31-3d9b-b31b-606c9ed19ac3&appid=hpgrid&device=desktop&lang=en-US&region=US&site=fp&bucket=405&features=contentFeedbackEnabled,enableAdFeedbackV2,enableAdSlotsOneSlot,enableInArticleAd,enableSingleSlotting,enableSlideShowKV,enableVideoDocking,outStream,enableFinancePremiumTicker,disableSportsPromo,enable3pBettingBodySlotsAsRMP,enableBodySlotsAsRMP,enableContentMeta,enableAdLiteUpSellFeedback&rid=6jhpm69hhvplk ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/caas/content/article/?uuid=f88173f8-4cc5-3c8b-9af0-9359a6f74e2e,b40f143c-88d8-4ced-9bb2-74226aae1605,4a8f2ee7-4270-3b29-a6a5-a29230c380c7,bfb19da2-9db6-33f0-b8d3-74fd9eee13ed,f7828c6c-51eb-333d-9fae-eedbc9b06612,84fbc408-3b70-4be3-a7e8-20370b3ecffe,e62f2934-43ca-3f83-a5d0-817fc40ed853,a537a38f-e497-33b3-84c9-52da35b4e835,22698bc0-6f2f-3919-b3d0-ff7c73e3e4f8,10d9c39d-d1fa-3ccb-ba7f-57ab714e45c3&appid=hpgrid&device=desktop&lang=en-US&region=US&site=fp&bucket=405&features=contentFeedbackEnabled,enableAdFeedbackV2,enableAdSlotsOneSlot,enableInArticleAd,enableSingleSlotting,enableSlideShowKV,enableVideoDocking,outStream,enableFinancePremiumTicker,disableSportsPromo,enable3pBettingBodySlotsAsRMP,enableBodySlotsAsRMP,enableContentMeta,enableAdLiteUpSellFeedback&rid=6jhpm69hhvplk ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/caas/content/article/?uuid=eca631c1-a2e5-32f8-824b-514ca620f483,44f9a99f-7c0e-306b-853e-c2eedae2f303&appid=hpgrid&device=desktop&lang=en-US&region=US&site=fp&bucket=405&features=contentFeedbackEnabled,enableAdFeedbackV2,enableAdSlotsOneSlot,enableInArticleAd,enableSingleSlotting,enableSlideShowKV,enableVideoDocking,outStream,enableFinancePremiumTicker,disableSportsPromo,enable3pBettingBodySlotsAsRMP,enableBodySlotsAsRMP,enableContentMeta,enableAdLiteUpSellFeedback&rid=6jhpm69hhvplk ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/px.gif?ch=1&rn=1.3629217772799236 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/px.gif?ch=2&rn=1.3629217772799236 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/performance?ybar-sticky_0=0.5&ybar-init_0=0.39999985694885254&ybar-mod-topnavigation_0=1&ybar-mod-logo_0=0.20000004768371582&ybar-mod-searchbox_0=0.2999999523162842&ybar-mod-assistjs_0=3.200000047683716&ybar-mod-navigation_0=0.19999980926513672&ybar-account-init_0=2.799999952316284&ybar-mail-init_0=1.4000000953674316&ybar-mod-navigation_1=3.700000047683716&ybar-mod-notification_0=1.1000001430511475&src=ybar&_rdn=064892&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0&site=homepage ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/performance?ybar-sticky_0=0.5&ybar-init_0=0.39999985694885254&ybar-mod-topnavigation_0=1&ybar-mod-logo_0=0.20000004768371582&ybar-mod-searchbox_0=0.2999999523162842&ybar-mod-assistjs_0=3.200000047683716&ybar-mod-navigation_0=0.19999980926513672&ybar-account-init_0=2.799999952316284&ybar-mail-init_0=1.4000000953674316&ybar-mod-navigation_1=3.700000047683716&ybar-mod-notification_0=1.1000001430511475&src=ybar&_rdn=064888&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0&site=homepage ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/reporting-observer?meta=%7B%22sourceFile%22%3Anull%2C%22lineNumber%22%3Anull%2C%22columnNumber%22%3Anull%2C%22id%22%3A%224302%22%2C%22message%22%3A%22Deprecation%20messages%20are%20stored%20in%20the%20devtools-frontend%20repo%20at%20front_end%2Fmodels%2Fissues_manager%2FDeprecationIssue.ts.%22%2C%22anticipatedRemoval%22%3Anull%7D&src=deprecation&_rdn=064556&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0&site=fp&connection=%7B%22downlink%22%3A10%2C%22downlinkMax%22%3A%22%22%2C%22effectiveType%22%3A%224g%22%2C%22rtt%22%3A%22%22%2C%22saveData%22%3A%22%22%2C%22type%22%3A%22%22%7D&hasWf=true&hasWfR=true ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/reporting-observer?meta=%7B%22sourceFile%22%3Anull%2C%22lineNumber%22%3Anull%2C%22columnNumber%22%3Anull%2C%22id%22%3A%224302%22%2C%22message%22%3A%22Deprecation%20messages%20are%20stored%20in%20the%20devtools-frontend%20repo%20at%20front_end%2Fmodels%2Fissues_manager%2FDeprecationIssue.ts.%22%2C%22anticipatedRemoval%22%3Anull%7D&src=deprecation&_rdn=064557&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0&site=fp&connection=%7B%22downlink%22%3A10%2C%22downlinkMax%22%3A%22%22%2C%22effectiveType%22%3A%224g%22%2C%22rtt%22%3A%22%22%2C%22saveData%22%3A%22%22%2C%22type%22%3A%22%22%7D&hasWf=true&hasWfR=true ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/WAFER_LOG?meta=%7B%22value%22%3Anull%7D&src=colorSchema&_rdn=064557&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0&site=fp&connection=%7B%22downlink%22%3A10%2C%22downlinkMax%22%3A%22%22%2C%22effectiveType%22%3A%224g%22%2C%22rtt%22%3A%22%22%2C%22saveData%22%3A%22%22%2C%22type%22%3A%22%22%7D&hasWf=true&hasWfR=true ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/WAFER_LOG?meta=%7B%22duration%22%3A209%2C%22source%22%3A%22NETWORK_WITHOUT_CACHE%22%2C%22url%22%3A%22%2Ffp_mtls_ms%2F_rcv%2Fremote%3Fm_id%3Dreact-wafer-horoscope%26ctrl%3DHoroscopeGrid%26instance_id%3Dhoroscope%26site%3Dfp%26rid%3D6jhpm69hhvplk%26apptype%3Ddefault%26m_mode%3Djson%26_evtSrc%3DdeferLoad%22%7D&src=WaferFetch&_rdn=064557&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0&site=fp&connection=%7B%22downlink%22%3A10%2C%22downlinkMax%22%3A%22%22%2C%22effectiveType%22%3A%224g%22%2C%22rtt%22%3A%22%22%2C%22saveData%22%3A%22%22%2C%22type%22%3A%22%22%7D&hasWf=true&hasWfR=true ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.yahoo.com/_td_api/beacon/error?err=WaferLightbox&beaconType=wafer_err&info=%7B%22message%22%3A%22wrapperTemplateElem%20missing%22%7D&stack=&connection=%7B%22downlink%22%3A10%2C%22downlinkMax%22%3A%22%22%2C%22effectiveType%22%3A%224g%22%2C%22rtt%22%3A%22%22%2C%22saveData%22%3A%22%22%2C%22type%22%3A%22%22%7D&apptype=default&rid=6jhpm69hhvplk&bucket=405&device=desktop&osName=windows%20nt&browserName=chrome&browserVersion=105.0 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://qq.com ======
-[!] static page detected, abort test!
- ====== [i] testing for http://twitter.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://twitter.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://twitter.com/sw.js ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://twitter.com/home?precache=1 ------
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
-[!] error 'NoneType' object has no attribute 'headers'
- ====== [i] testing for http://instagram.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://instagram.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/teamchae.css/ ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=3&__d=www&__hs=19248.HYP%3Acomet_loggedout_pkg.2.1.0.0.0&__hsi=7142681334048535476&__req=2&__rev=1006185566&__s=n7l28i%3Aof8ki0%3Afz4hhl&__spin_b=trunk&__spin_r=1006185566&__spin_t=1663035092&__user=0&dpr=1&jazoest=2853&lsd=AVoIau01MR0&ph=C3 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/ajax/bootloader-endpoint/?modules=PolarisBDClientSignalCollectionTrigger&__d=www&__user=0&__a=1&__dyn=7xeUmwlE7ibwKBWo2vwAxu13w8CewSwMwNw9G2S0lW4o0B-q1ew65xO0FE2awt81sbzo5-0Bo7O2l0Fwqo31wnEfo5m1mxe6E7e58jwGzE2swwwNwKwHw8Xwn82Lx_w4HwJwSyESE3mwIwbS1bwzwTwNwmk&__csr=nEhkB7A88QGxGmVGyGhaG4rgW5o9ElwDyoGi9zFUszA48S3eEiGewXwXxWfxym8x226fwnU7K7orw_xW5o9U09LE0Jq00T_WCw0IQw3H84GdEKC4808BE08eU0c_klo0CC0epg04Mu06IU8o&__req=1&__hs=19248.HYP%3Acomet_loggedout_pkg.2.1.0.0.0&dpr=1&__ccg=EXCELLENT&__rev=1006185566&__s=n7l28i%3Aof8ki0%3Afz4hhl&__hsi=7142681334048535476&__comet_req=3&__spin_r=1006185566&__spin_b=trunk&__spin_t=1663035092 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/ajax/bulk-route-definitions/ ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/ajax/bootloader-endpoint/?modules=PolarisActivityFeedBox.react&__d=www&__user=0&__a=1&__dyn=7xeUmwlE7ibwKBWo2vwAxu13w8CewSwMwNw9G2S0lW4o0B-q1ew65xO0FE2awt81sbzo5-0Bo7O2l0Fwqo31wnEfo5m1mxe6E7e58jwGzE2swwwNwKwHw8Xwn82Lx_w4HwJwSyESE3mwIwbS1bwzwTwNwmk&__csr=nEhkB7A88QGxGmVGyGhaG4rgW5o9ElwDyoGi9zFUszA48S3eEiGewXwXxWfxym8x226fwnU7K7orw_xW5o9U09LE0Jq00T_WCw0IQw3H84GdEKC4808BE08eU0c_klo0CC0epg04Mu06IU8o&__req=3&__hs=19248.HYP%3Acomet_loggedout_pkg.2.1.0.0.0&dpr=1&__ccg=EXCELLENT&__rev=1006185566&__s=n7l28i%3Aof8ki0%3Afz4hhl&__hsi=7142681334048535476&__comet_req=3&__spin_r=1006185566&__spin_b=trunk&__spin_t=1663035092 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.instagram.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=3&__d=www&__hs=19248.HYP%3Acomet_loggedout_pkg.2.1.0.0.0&__hsi=7142681334048535476&__req=5&__rev=1006185566&__s=n7l28i%3Aof8ki0%3Afz4hhl&__spin_b=trunk&__spin_r=1006185566&__spin_t=1663035092&__user=0&dpr=1&jazoest=2853&lsd=AVoIau01MR0&ph=C3 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://amazon.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://amazon.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://amazon.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.amazon.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: Error from cloudfront
-[!] first request is not a hit
- ====== [i] testing for http://whatsapp.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://whatsapp.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.whatsapp.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://wikipedia.org ======
-[!] static page detected, abort test!
- ====== [i] testing for http://live.com ======
-[!] static page detected, abort test!
- ====== [i] testing for http://zhihu.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://zhihu.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.zhihu.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://bing.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://bing.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: CONFIG_NOCACHE
-[!] first request is not a hit
------- https://www.bing.com/teamchae.css?toWww=1&redig=227C9EF3F95343E188F0309828F9EC29 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: CONFIG_NOCACHE
-[!] first request is not a hit
- ====== [i] testing for http://linkedin.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://linkedin.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: CONFIG_NOCACHE
-[!] first request is not a hit
------- https://www.linkedin.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: CONFIG_NOCACHE
-[!] first request is not a hit
- ====== [i] testing for http://microsoft.com ======
-[!] static page detected, abort test!
- ====== [i] testing for http://reddit.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://reddit.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.reddit.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://yandex.ru ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://yandex.ru/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://yandex.ru/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://yandex.ru/suggest/suggest-ya.cgi?srv=morda_ru_desktop&wiz=TrWth&uil=ru&fact=1&v=4&icon=1&lr=213&hl=1&bemjson=0&html=1&platform=desktop&rich_nav=1&show_experiment=222&show_experiment=224&verified_nav=1&rich_phone=1&use_favicon=1&nav_favicon=1&nav_text=1&a=0&mt_wizard=1&svg=1&part=&pos=0&suggest_reqid=61637454377695198151858167324308&hs=0 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://office.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://office.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.office.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: CONFIG_NOCACHE
-[!] first request is not a hit
- ====== [i] testing for http://vk.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://vk.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://vk.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://vk.com/images/error404.png ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://github.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://github.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://zoom.us ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://zoom.us/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://zoom.us/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://zoom.us/csrf_js ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://zoom.us/csrf_js ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://csdn.net ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- http://csdn.net/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.csdn.net/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://canva.com ======
-[!] step 1 passed (dynamic page), moving on to step 2...
----------------------------------
------- https://canva.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.canva.com/teamchae.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.canva.com/favicon.ico ------
+------ https://www.sgcarmart.com/css/global.css ------
 [i] server-timing: None
 [!] hit or miss status not present for server-timing
 [i] X-Cache: None
@@ -1634,92 +309,4 @@
 [i] X-Cache-Remote: None
 [!] hit or miss status not present for X-Cache-Remote
 [i] cf-cache-status: HIT
-[i] first request for https://www.canva.com/favicon.ico is a HIT, now checking for MISS...
-[i] no miss found, website is not vulnerable. 
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.canva.com/cdn-cgi/styles/challenges.css ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.canva.com/cdn-cgi/challenge-platform/h/g/orchestrate/managed/v1?ray=749d5df9c9b22ee0 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.canva.com/cdn-cgi/images/trace/managed/js/transparent.gif?ray=749d5df9c9b22ee0 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
------- https://www.canva.com/cdn-cgi/challenge-platform/h/g/flow/ov1/0.03470300689766314:1663032221:qKObtXKgUuE0fB_wxrpiA7nOZV8vO1Dto2S5pm2dlhc/749d5df9c9b22ee0/782504b965c67e0 ------
-[i] server-timing: None
-[!] hit or miss status not present for server-timing
-[i] X-Cache: None
-[!] hit or miss status not present for X-Cache
-[i] X-Cache-Remote: None
-[!] hit or miss status not present for X-Cache-Remote
-[i] cf-cache-status: None
-[!] hit or miss status not present for cf-cache-status
-[i] cdn_cache_status: None
-[!] hit or miss status not present for cdn_cache_status
-[i] x-cache: None
-[!] hit or miss status not present for x-cache
-[i] X-Proxy-Cache: None
-[!] hit or miss status not present for X-Proxy-Cache
-[i] X-Rack-Cache: None
-[!] hit or miss status not present for X-Rack-Cache
-[i] x-cache-info: None
-[!] hit or miss status not present for x-cache-info
- ====== [i] testing for http://microsoftonline.com ======
+[i] first request for https://www.sgcarmart.com/css/global.css is a HIT, now checking for MISS...
