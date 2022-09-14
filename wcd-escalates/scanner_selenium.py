@@ -8,6 +8,7 @@ from seleniumwire.utils import decode
 from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import urlparse
 from datetime import datetime
+import random, string
 
 
 ### DEFINITIONS ###
@@ -16,6 +17,15 @@ LOGS = "logs.txt"
 URLS = "urls.txt"
 TODAY = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 FOUND = "vulnerable.txt"
+
+## Write to vulnerable
+with open(FOUND, "a+") as f:
+  f.write("********** Run on: " + str(TODAY) +" **********")
+
+def randomword(length):
+  letters = string.ascii_lowercase
+  return ''.join(random.choice(letters) for i in range(length))
+
 
 def decode_req(request):
   body = decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
@@ -104,9 +114,7 @@ cache_status = [
 ]
 
 
-## url we will use. based on research, css files have the most success. 
-## we use a unique name so that it is a unique file
-attack_string = "teamchae.css"
+# attack_string = "teamchae.css"
 
 ## start header
 
@@ -114,6 +122,11 @@ write_("********** Run on: " + str(TODAY) +" **********")
 
 ## Get stuff
 for url_ in lst:
+  ## url we will use. based on research, css files have the most success. 
+  ## we use a unique name so that it is a unique file
+  attack_string = randomword(5) + ".css"
+
+
   ## Add http://, may not be necessary.
   # sublister_domain = url_
   url_ = "http://" + url_
@@ -139,7 +152,7 @@ for url_ in lst:
     write_("[!] step 1 passed (dynamic page), moving on to step 2...")
     for suffix in attack_lst:
       write_("---------------------------------")
-      sleep(0.3)
+      sleep(0.3) # prevent unintended spam
       # make attack url
       attack_url = url_ + suffix + attack_string
       

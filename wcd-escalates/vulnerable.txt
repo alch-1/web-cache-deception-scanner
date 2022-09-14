@@ -1,0 +1,12 @@
+********** Run on: 2022-09-14 12:27:16 **********[i] second request is a HIT, https://www.sgcarmart.com/cxeoi.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/css/global.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/js/jquery-1.4.2.min.js is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/css/topmenuheader.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/cxeoi.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/css/topmenuheader.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/css/global.css is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/js/jquery-1.4.2.min.js is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.js is vulnerable to WCD!
+[i] second request is a HIT, https://www.sgcarmart.com/autocomplete/includes/jquery.autocomplete.css is vulnerable to WCD!
